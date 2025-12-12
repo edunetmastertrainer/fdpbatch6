@@ -109,7 +109,7 @@ def delete_entry(entry_id: int) -> None:
 
 def main():
     st.set_page_config(page_title="Streamlit SQLite CRUD", layout="centered")
-    st.title("Streamlit + SQLite3 — CRUD Example")
+    st.title("Welcome to My App")
 
     # Ensure table exists on startup
     create_table()
@@ -197,3 +197,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
